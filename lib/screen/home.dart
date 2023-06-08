@@ -32,8 +32,11 @@ class _HomeScreenState extends State<HomeScreen> {
             final user = users[index];
             //final color = user.gender == 'male' ? Colors.blue : Colors.green;
             return ListTile(
+              leading: ClipRRect(
+                  borderRadius: BorderRadius.circular(100),
+                  child: Image.network(user.picture.thumbnail)),
               title: Text(user.fullName),
-              subtitle: Text(user.fullstreet),
+              subtitle: Text(user.phone),
               //tileColor: color,
             );
           }),
