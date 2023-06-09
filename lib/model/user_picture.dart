@@ -11,8 +11,8 @@ class UserPicture {
 
   factory UserPicture.fromMap(Map<String, dynamic> json) {
     return UserPicture(
-        large: json['large'],
-        medium: json['medium'],
-        thumbnail: json['thumbnail']);
+        large: json['large'] as String,
+        medium: json['medium'] as String,
+        thumbnail: json['thumbnail'] as String);
   }
 }
