@@ -1,0 +1,4 @@
+#Fri Jun 09 12:00:50 SGT 2023
+base.0=C\:\\Users\\maraw\\AndroidStudioProjects\\RestAPI_courseAPIcall\\build\\app\\intermediates\\dex\\release\\minifyReleaseWithR8\\classes.dex
+renamed.0=classes.dex
+path.0=classes.dex
